@@ -10,3 +10,5 @@ Interesting links:
 2. https://github.com/deependersingla/deep_trader
 3. https://github.com/kh-kim/stock_market_reinforcement_learning
 4. https://github.com/ucaiado/QLearning_Trading
+5. http://cslt.riit.tsinghua.edu.cn/mediawiki/images/5/5f/Dtq.pdf
+6. https://www.quora.com/Can-reinforcement-learning-be-used-to-forecast-time-series - reinforcement learning is probably not the ideal approach:(
