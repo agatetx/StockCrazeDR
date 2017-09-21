@@ -1,0 +1,8 @@
+[submodule "DataProcurement/third_party/googlefinance"]
+	path = DataProcurement/third_party/googlefinance
+	url = https://github.com/hongtaocai/googlefinance.git
+	branch = master
+[submodule "DataProcurement/third_party/yahoo-finance"]
+	path = DataProcurement/third_party/yahoo-finance
+	url = https://github.com/lukaszbanasiak/yahoo-finance.git
+	branch = master
