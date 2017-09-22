@@ -3,7 +3,9 @@ We play games and make millions
 
 Info4Reuven: 
 1. A good way to edit this file: http://prose.io 
-2. Work Hard, Have Fun, Make History!:)
+2. To clone this repository run: 
+         git clone --recursive https://github.com/agatetx/StockCrazeDR.git
+3. Work Hard, Have Fun, Make History!:)
 
 Interesting links:
 1. https://hackernoon.com/the-self-learning-quant-d3329fcc9915
