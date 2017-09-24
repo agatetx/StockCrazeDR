@@ -3,9 +3,11 @@
 import sys
 import os
 import time
+import json
 #sys.path.insert(0,os.path.join(os.path.realpath(__file__),'..'))
 #import my_dependencies; my_dependencies.check()
 from rtstock.stock import Stock
+from googlefinance import getNews
 import config
 import threading
 
@@ -19,6 +21,8 @@ def stock_worker(sym):
                 break
             last_time = str(data[u'LastTradeTime'])
             price = float(str(data[u'LastTradePriceOnly']))
+            news = json.dumps(getNews(sym), indent=2)
+            #print(news) # Do not print for now...
             print('{:<10}'.format(last_time+':') +  '{:<30}'.format('%0.2fUSD'%price))
         except:
             import traceback; traceback.print_exc()
